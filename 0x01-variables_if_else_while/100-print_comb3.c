@@ -17,14 +17,16 @@ int main(void)
 		/**putchar((x) + '0');*/
 		for (y = x; y <= 9; y++)
 		{
-			/**putchar((x) + '0');*/
 			if (y != x)
 			{
 				putchar((x) + '0');
 				putchar((y) + '0');
-				putchar(',');
-				putchar(' ');
-			}
+				if (x < 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+		}
 		}
 	}
 
