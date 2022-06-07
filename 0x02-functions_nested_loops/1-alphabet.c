@@ -5,6 +5,8 @@
  *
  * Return: Always 0.
  */
+char x;
+
 void print_alphabet (void)
 {
 	char x;
