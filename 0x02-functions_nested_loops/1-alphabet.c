@@ -15,3 +15,9 @@ void print_alphabet(void)
 		putchar(x);
 	putchar('\n');
 }
+
+int main(void)
+{
+	print_alphabet();
+	result (0);
+
