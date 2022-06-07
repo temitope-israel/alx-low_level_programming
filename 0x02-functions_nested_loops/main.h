@@ -1,3 +1,2 @@
-#include
-
-void print_alphabet(void)
+#include <stdio.h>
+	
