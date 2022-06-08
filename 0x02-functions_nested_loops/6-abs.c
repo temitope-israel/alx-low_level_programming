@@ -13,17 +13,8 @@ int _abs(int r)
 {
 
 	if (r < 0)
-	{
 		r *= -1;
-		return (1);
-	}
-	else if (r == 0)
-	{
-		r = -r;
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	else if (r >= 0)
+		r *= 1;	
+	return (1);
 }
