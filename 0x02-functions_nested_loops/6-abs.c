@@ -17,6 +17,11 @@ int _abs(int r)
 		r = r * -1;
 		return (1);
 	}
+	else if (r >= 0)
+	{
+		r = r;
+		return (1);
+	}
 	else
 	{
 		return (0);
