@@ -12,9 +12,9 @@
 int _abs(int r)
 {
 
-	if (r < 0)
+	if (r <= 0)
 		r *= -1;
-/*	else if (r >= 0)
-		r *= 1;*/	
+	else if (r > 0)
+		r *= 1;
 	return (1);
 }
