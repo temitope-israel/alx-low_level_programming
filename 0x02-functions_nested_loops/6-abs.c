@@ -17,7 +17,7 @@ int _abs(int r)
 		r *= -1;
 		return (1);
 	}
-	else if (r == 0 || r > 0)
+	else if (r == 0)
 	{
 		r = r;
 		return (1);
