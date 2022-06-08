@@ -4,17 +4,17 @@
  * _abs - a function that
  * that computes the absolute value.
  * of an integer.
- * @int: Character to be checked
+ * @r: Character to be checked
  *
  * Return: 1 upon success.
  */
 
-int _abs(int)
+int _abs(int r)
 {
 
-	if (int < 0)
+	if (r < 0)
 	{
-		int = -int;
+		r = -r;
 		return (1);
 	}
 	else
