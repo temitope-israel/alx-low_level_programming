@@ -20,7 +20,7 @@ int _abs(int r)
 	else if (r > 0)
 	{
 		r = r;
-		return (1)
+		return (1);
 	}
 	else
 	{
