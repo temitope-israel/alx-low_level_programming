@@ -12,21 +12,15 @@
 
 int _islower(int c)
 {
-	int x;
-
-	x = 97;
-	while (x <= 122)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (x != c)
-		{
-			/**x++;*/
-		/*	_putchar(x);*/
-		}
-		else
-		{
-			/*_putchar(c);*/
-	/*		printf("SUCCESS! The ;etter entered is: %d. It is lowercase.", c);*/
-			return (1);
-		}
+		return (1);
+		/* printf("'%c' is lowercase alphabet.", ch);*/
 	}
+	else
+	{
+		return (0);
+		/* printf("'%c' is not an alphabet.", ch);*/
+	}
+
 }
