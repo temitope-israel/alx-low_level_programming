@@ -1,23 +1,16 @@
 #include "main.h"
-/**#include "_putchar.c"*/
 /**
- * main - check the code
+ * print_alphabet - print to stdout using
+ * _putchar
  *
- * Return
+ * Return: Always 1 (True)
  */
 
 void print_alphabet(void)
 {
-/**	int _putchar(char c);*/
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 		_putchar(c);
 	_putchar('\n');
 }
-/**
-int main (void)
-{
-	print_alphabet();
-	return (0);
-}*/
