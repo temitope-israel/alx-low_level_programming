@@ -5,7 +5,6 @@
  *
  * @size: numbers of lines.
  *
- *
  * Return: returns nothing.
  */
 void print_triangle(int size)
