@@ -16,15 +16,12 @@
 
 void puts2(char *str)
 {
-	int i, j;
-
-	j = strlen(str);
+	int i;
 
 
-	for (i = 0; i < j; i++)
+	for (i = 0; i < strlen(str); i += 2)
 	{
-		if (i % 2 == 0)
-			printf("%d", i);
+		putchar(str[i]);
 	}
 	printf("\n");
 }
