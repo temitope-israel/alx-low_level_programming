@@ -13,23 +13,23 @@
 
 void puts_half(char *str)
 {
-	int i, j, half_of_str;
+	int i, j, n;
 
 
-	j = strlen(str);
-	half_of_str = j / 2;
+	j = strlen(str) + 1;
+	n = j / 2;
 
-	if (half_of_str % 2 == 0)
+	if (n % 2 == 0)
 	{
-		for (i = half_of_str ; i <= j; i++)
+		for (i = n ; i <= j; i++)
 		{
 			putchar(str[i]);
 		}
 	}
 	else
 	{
-		half_of_str = (j - 1) / 2;
-		for (i = half_of_str ; i <= j; i
+		n = (j - 1) / 2;
+		for (i = n ; i <= j; i
 ++)
 		{
 			putchar(str[i]);
