@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 
 /**
  * cap_string - function that capitalizes
@@ -13,8 +13,9 @@
 
 char *cap_string(char *str)
 {
+	int i;
 
-	for (int i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0)
 		{
