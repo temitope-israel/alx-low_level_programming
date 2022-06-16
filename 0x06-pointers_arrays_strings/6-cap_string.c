@@ -13,9 +13,8 @@
 
 char *cap_string(char *str)
 {
-	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (int i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0)
 		{
@@ -24,7 +23,7 @@ char *cap_string(char *str)
 			continue;
 		}
 
-		if ((str[i] == ' ') || (str[i] == '.'))
+		if ((str[i] == '.') || (str[i] == ' '))
 		{
 			i++;
 			if (str[i] >= 'a' && str[i] <= 'z')
