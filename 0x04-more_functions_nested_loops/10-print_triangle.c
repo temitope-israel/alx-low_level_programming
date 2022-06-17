@@ -7,18 +7,32 @@
  *
  * Return: returns nothing.
  */
+
+
 void print_triangle(int size)
 {
-	int a, b
+	int c, i, j;
 
-	for (a = 0; a < size; a++)
+	c = 0;
+	i = size - 1;
+	while (c < size)
 	{
-		for (b = 1; b < (size - i); b++)
+		i = size - 1 - c;
+		j = c + 1;
+		while (i > 0)
+		{
 			_putchar(' ');
-		for (b--; b < size; b++)
-			_putchar(35);
-		if (a < (size - 1))
-			_putchar('\n');
+			i--;
+		}
+		while (j > 0)
+		{
+			_putchar('#');
+			j--;
+		}
+		_putchar('\n');
+		c++;
 	}
-	_putchar('\n');
+
+	if (size <= 0)
+		_putchar('\n');
 }
