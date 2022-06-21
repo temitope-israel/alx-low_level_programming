@@ -4,7 +4,9 @@
  * print_chessboard - function that
  * prints the chessboard.
  *
+ *
  * @a: pointer function
+ *
  *
  * Return: returns nothing.
  */
