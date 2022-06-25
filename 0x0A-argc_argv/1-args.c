@@ -7,7 +7,7 @@
  * @argc: The number of command
  * line arguments
  *
- * @argv: Array containing the 
+ * @argv: Array containing the
  * program command line arguments.
  *
  * Return: return 0.
