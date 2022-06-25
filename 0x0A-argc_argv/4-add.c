@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - Program that multiplies
- * two numbers.
+ * main - Program that adds
+ * positive numbers.
  *
  * @argc: The number of command
  * line arguments
